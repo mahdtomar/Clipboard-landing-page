@@ -154,3 +154,55 @@ footer .content .small-icons{
   max-width: 1440px;
   width: 90%;
 }
+
+@media only screen and (max-width: 600px) {
+.grid5{
+  display: grid;
+  grid-template-columns: 1fr ;
+  max-width: 1440px;
+  width: 90%;
+  gap: 20px 20px ;
+  margin-top: 50px;
+}
+.grid3{
+  grid-template-columns: 1fr;
+}
+.grid3 .grid3-child {
+  width: 90%;
+  text-align: center;
+}
+.grid3 .grid3-child p{
+  text-align: center;
+  width: 90%;
+  font-size: small;
+}
+.computer{
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 1440px;
+  position: relative;
+}
+.computer .right{
+  width: 100%;
+  margin-left: 0px;
+}
+.computer .right p{
+  text-align: center;
+  margin: 010px auto;
+}
+.computer .right h3{
+  text-align: center;
+  margin: 20px auto;
+  font-size: 30px;
+
+}
+.computer img{
+  width: 80%;
+  display: block;
+  margin: 0px auto;
+  display: block;
+  position: relative;
+}
+}
