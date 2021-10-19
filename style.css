@@ -28,9 +28,11 @@ color: rgba(0, 0, 0, 0.6);
 }
 p, h1, h2, h3 {
   max-width: 650px;
+  width: 90%;
 }
 button {
-  width: 280px;
+  max-width: 280px;
+  width: 80%;
   padding: 20px 0px;
   border-radius: 30px;
   margin: 20px 20px 20px auto;
@@ -75,7 +77,8 @@ header{
   margin: 0px 0px 20px 54.8px;
 }
 .computer p{
-  width: 300px;
+  max-width: 300px;
+  width: 90%;
   text-align: left;
   margin: 0px 0px 0px 54.8px;
 }
